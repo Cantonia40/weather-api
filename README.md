@@ -1,5 +1,5 @@
 # Weather API 🌤️
-
+**Live Demo:** [https://weather-api-u65i.onrender.com/weather?city=Lagos](https://weather-api-u65i.onrender.com/weather?city=Lagos)
 A simple RESTful API built with Node.js and Express that fetches real-time weather data for any city using the OpenWeatherMap API.
 
 ## Features
