@@ -1,7 +1,9 @@
 require('dotenv').config();
+const cors = require('cors');
 const express = require('express');
 const app = express();
 const PORT = 3000;
+app.use(cors());
 
 // PASTE YOUR API KEY HERE BETWEEN THE QUOTES
 const API_KEY = process.env.WEATHER_API_KEY; 
